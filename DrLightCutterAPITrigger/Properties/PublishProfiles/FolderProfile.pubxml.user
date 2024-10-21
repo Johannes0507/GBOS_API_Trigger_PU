@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Keith.Lee\Desktop\Diamond Groups\Project\DrLightTrigger\GBOS_API_Trigger</_PublishTargetUrl>
+    <History>True|2024-10-21T05:19:00.4694684Z||;True|2024-10-21T13:13:19.1917700+08:00||;True|2024-10-21T13:12:57.4070723+08:00||;True|2024-10-21T13:07:55.6204437+08:00||;True|2024-10-21T12:56:47.1995286+08:00||;True|2024-10-21T12:43:15.2710451+08:00||;True|2024-10-21T11:11:11.4700847+08:00||;True|2024-10-21T11:04:52.3406122+08:00||;True|2024-10-17T21:59:51.1495761+08:00||;True|2024-10-17T21:59:38.6381100+08:00||;True|2024-10-14T22:54:33.9937450+08:00||;True|2024-10-14T22:53:32.9338782+08:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

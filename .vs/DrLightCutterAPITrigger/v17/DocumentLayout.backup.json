@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\services\\forwardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\services\\forwardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\services\\forwardscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\services\\forwardscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\helper\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\helper\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\helper\\forwardschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\helper\\forwardschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\model\\inputparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\model\\inputparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\model\\statusfrinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\model\\statusfrinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\model\\logininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\model\\logininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\helper\\machineid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\helper\\machineid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\helper\\enumhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\helper\\enumhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|c:\\users\\keith.lee\\desktop\\diamond groups\\project\\drlighttrigger\\drlightcutterapitrigger\\drlightcutterapitrigger\\drlightcutterapitrigger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3119532-F2D2-4E3E-8474-57CE1E455E6B}|DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj|solutionrelative:drlightcutterapitrigger\\drlightcutterapitrigger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-21T05:13:20.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Program.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Program.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Program.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T09:46:31.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ForwardScheduleService.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Services\\ForwardScheduleService.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Services\\ForwardScheduleService.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Services\\ForwardScheduleService.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Services\\ForwardScheduleService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwDoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:02:29.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "URLs.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Helper\\URLs.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Helper\\URLs.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Helper\\URLs.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Helper\\URLs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwBEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T09:52:04.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\appsettings.json",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\appsettings.json",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\appsettings.json",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-14T15:12:02.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForwardService.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Services\\ForwardService.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Services\\ForwardService.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Services\\ForwardService.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Services\\ForwardService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:10:07.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Services\\LoginService.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Services\\LoginService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAEBAwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T10:09:45.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ForwardSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Helper\\ForwardSchedule.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Helper\\ForwardSchedule.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Helper\\ForwardSchedule.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Helper\\ForwardSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T17:55:34.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InputParameter.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Model\\InputParameter.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Model\\InputParameter.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Model\\InputParameter.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Model\\InputParameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T10:16:27.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatusFrInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Model\\StatusFrInfo.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Model\\StatusFrInfo.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Model\\StatusFrInfo.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Model\\StatusFrInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T05:43:08.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Model\\LoginInfo.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Model\\LoginInfo.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Model\\LoginInfo.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Model\\LoginInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T09:59:49.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MachineID.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Helper\\MachineID.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Helper\\MachineID.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Helper\\MachineID.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Helper\\MachineID.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T04:46:12.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EnumHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Helper\\EnumHelper.cs",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\Helper\\EnumHelper.cs",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\Helper\\EnumHelper.cs",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\Helper\\EnumHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T05:02:59.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DrLightCutterAPITrigger.csproj",
+              "DocumentMoniker": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj",
+              "RelativeDocumentMoniker": "DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj",
+              "ToolTip": "C:\\Users\\Keith.Lee\\Desktop\\Diamond Groups\\Project\\DrLightTrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj",
+              "RelativeToolTip": "DrLightCutterAPITrigger\\DrLightCutterAPITrigger.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-15T04:01:30.57Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
