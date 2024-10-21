@@ -10,7 +10,7 @@ namespace DrLightCutterAPITrigger.Services
         private readonly ILogger<ForwardService> _logger;
 
         /// <summary>
-        /// 初始化 ForwardService 類別，使用 LoginService 的 HttpClient 來發送請求。
+        /// Initializes the ForwardService class, using the HttpClient from the LoginService to send requests.
         /// </summary>
         public ForwardService(LoginService loginService, ILogger<ForwardService> logger)
         {
@@ -19,50 +19,50 @@ namespace DrLightCutterAPITrigger.Services
         }
 
         /// <summary>
-        /// 從指定的 URL 獲取資料後，轉發至另一個 URL。
+        /// Retrieves data from the specified URL and forwards it to another URL.
         /// </summary>
-        /// <param name="originalUrl">原始資料的 URL。</param>
-        /// <param name="inputParameter">輸入參數，包括機器 ID、開始時間、結束時間等。</param>
-        /// <param name="forwardUrl">需要轉發的目標 URL，若為空則不轉發。</param>
+        /// <param name="originalUrl">The URL of the original data.</param>
+        /// <param name="inputParameter">The input parameters, including machine ID, start time, end time, etc.</param>
+        /// <param name="forwardUrl">The target URL to forward to. If empty, no forwarding is performed.</param>
         public async Task FetchAndForwardAsync(string originalUrl, InputParameter inputParameter, string forwardUrl = "")
         {
             try
             {
-                // 構建請求 URL，將參數帶入 URL 中
+                // Build the request URL with the parameters in the query string
                 string requestUrl = $"{originalUrl}?MachineId={inputParameter.MachineID}&StartDate={inputParameter.StartTime:yyyy/MM/dd}&EndDate={inputParameter.EndTime:yyyy/MM/dd}&Flag={inputParameter.Flag}";
 
-                _logger.LogInformation("準備從 {OriginalUrl} 獲取資料，請求 URL：{RequestUrl}", originalUrl, requestUrl);
+                _logger.LogInformation("Preparing to fetch data from {OriginalUrl}. Request URL: {RequestUrl}", originalUrl, requestUrl);
 
-                // 從原始 URL 獲取資料
+                // Fetch data from the original URL
                 var response = await _httpClient.GetAsync(requestUrl);
                 response.EnsureSuccessStatusCode();
                 var data = await response.Content.ReadAsStringAsync();
 
-                _logger.LogInformation("成功從 {OriginalUrl} 獲取數據：{Data}", originalUrl, data);
+                _logger.LogInformation("Successfully retrieved data from {OriginalUrl}: {Data}", originalUrl, data);
 
-                // 如果有轉發 URL，將資料轉發
+                // If a forward URL is provided, forward the data
                 if (!string.IsNullOrWhiteSpace(forwardUrl))
                 {
-                    _logger.LogInformation("準備將數據轉發至 {ForwardUrl}", forwardUrl);
+                    _logger.LogInformation("Preparing to forward data to {ForwardUrl}", forwardUrl);
 
                     var content = new StringContent(data, Encoding.UTF8, "application/json");
                     var forwardResponse = await _httpClient.PostAsync(forwardUrl, content);
                     forwardResponse.EnsureSuccessStatusCode();
 
-                    _logger.LogInformation("資料成功轉發到 {ForwardUrl}", forwardUrl);
+                    _logger.LogInformation("Data successfully forwarded to {ForwardUrl}", forwardUrl);
                 }
                 else
                 {
-                    _logger.LogWarning("沒有設定轉發 URL，跳過轉發操作。");
+                    _logger.LogWarning("No forwarding URL provided, skipping forwarding operation.");
                 }
             }
             catch (HttpRequestException httpEx)
             {
-                _logger.LogError(httpEx, "HTTP 請求錯誤：{Message}", httpEx.Message);
+                _logger.LogError(httpEx, "HTTP request error: {Message}", httpEx.Message);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "處理或轉發資料時發生錯誤：{Message}", ex.Message);
+                _logger.LogError(ex, "Error occurred during processing or forwarding data: {Message}", ex.Message);
             }
         }
     }

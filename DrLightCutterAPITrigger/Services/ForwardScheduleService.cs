@@ -10,29 +10,29 @@ namespace DrLightCutterAPITrigger.Services
         private System.Timers.Timer _forwardTimer;
 
         /// <summary>
-        /// 初始化 ForwardScheduleService 類別。
+        /// Initializes the ForwardScheduleService class.
         /// </summary>
-        /// <param name="forwardService">ForwardService 實例。</param>
+        /// <param name="forwardService">Instance of ForwardService.</param>
         public ForwardScheduleService(ForwardService forwardService)
         {
             _forwardService = forwardService;
         }
 
         /// <summary>
-        /// 設置轉發計時器。
+        /// Sets up the forwarding timer.
         /// </summary>
-        /// <param name="schedule">轉發的排程設定。</param>
+        /// <param name="schedule">The schedule configuration for forwarding.</param>
         public void SetForwardSchedule(ForwardSchedule schedule)
         {
             if (_forwardTimer != null)
-            {                
+            {
                 _forwardTimer.Stop();
                 _forwardTimer.Dispose();
             }
 
             if (schedule.IsAutoForwardEnabled)
             {
-                Console.WriteLine("開始轉發！");
+                Console.WriteLine("Forwarding started!");
                 _forwardTimer = new System.Timers.Timer(GetIntervalMilliseconds(schedule));
                 _forwardTimer.Elapsed += async (sender, e) => await ExecuteForwardAsync();
                 _forwardTimer.AutoReset = true;
@@ -41,7 +41,7 @@ namespace DrLightCutterAPITrigger.Services
         }
 
         /// <summary>
-        /// 執行轉發操作。
+        /// Executes the forwarding operation.
         /// </summary>
         private async Task ExecuteForwardAsync()
         {
@@ -56,20 +56,20 @@ namespace DrLightCutterAPITrigger.Services
                 };
 
                 string forwardUrl = "http://cloud-api-url/api/forward";
-               
+
                 await _forwardService.FetchAndForwardAsync(Urls.EquUsaInfo_GetList, inputParameter, "");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"定時轉發過程中出現錯誤: {ex.Message}");
+                Console.WriteLine($"An error occurred during scheduled forwarding: {ex.Message}");
             }
         }
 
         /// <summary>
-        /// 根據排程設定取得時間間隔（毫秒）。
+        /// Gets the interval in milliseconds based on the schedule configuration.
         /// </summary>
-        /// <param name="schedule">轉發的排程設定。</param>
-        /// <returns>時間間隔（毫秒）。</returns>
+        /// <param name="schedule">The schedule configuration for forwarding.</param>
+        /// <returns>Time interval in milliseconds.</returns>
         private double GetIntervalMilliseconds(ForwardSchedule schedule)
         {
             return schedule.IntervalUnit switch

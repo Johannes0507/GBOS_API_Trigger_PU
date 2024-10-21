@@ -1,26 +1,26 @@
 ﻿namespace DrLightCutterAPITrigger.Helper
 {
     /// <summary>
-    /// 設定時間的參數類別
+    /// Setting time parameter class
     /// </summary>
     public class ForwardSchedule
     {
         /// <summary>
-        /// 設定的時間間隔。
+        /// Setted interval.
         /// </summary>
         public int Interval { get; set; }
         /// <summary>
-        /// 時間間隔的單位（分鐘、小時、天）。
+        ///time interval unit (minutes, hours, days).
         /// </summary>
         public TimeUnit IntervalUnit { get; set; }
         /// <summary>
-        /// 是否啟用自動轉發。
+        /// bool value of auto forward enabled.
         /// </summary>
         public bool IsAutoForwardEnabled { get; set; }
     }
 
     /// <summary>
-    /// 時間單位的枚舉。
+    /// time unit enumeration.
     /// </summary>
     public enum TimeUnit
     {

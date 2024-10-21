@@ -6,7 +6,7 @@ namespace DrLightCutterAPITrigger.Helper
     public class EnumHelper
     {
         /// <summary>
-        /// 獲取 Enum 的 Description
+        /// Get Enum Description
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>

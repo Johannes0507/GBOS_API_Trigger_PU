@@ -9,34 +9,34 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// 註冊 LoginService 和 ForwardService 作為 Singleton 服務
+// Register LoginService and ForwardService as Singleton services
 builder.Services.AddSingleton<LoginService>();
 builder.Services.AddSingleton<ForwardService>();
 builder.Services.AddSingleton<ForwardScheduleService>();
 
-// 設定應用程式在 Windows Service 中運行
+// Configure the application to run as a Windows Service
 builder.Host.UseWindowsService();
 
 var app = builder.Build();
 
-#region 刷新令牌的 Service
+#region Token Refresh Service
 using (var scope = app.Services.CreateScope())
 {
     var loginService = scope.ServiceProvider.GetRequiredService<LoginService>();
     try
     {
-        // 執行登入
+        // Perform login
         await loginService.LoginAsync();
-        Console.WriteLine("登入成功並開始刷新令牌的計時器...");
+        Console.WriteLine("Login successful and the token refresh timer has started...");
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"登入過程中出現錯誤: {ex.Message}");
+        Console.WriteLine($"Error occurred during login process: {ex.Message}");
     }
 }
 #endregion
 
-#region 設置轉發排程
+#region Set up forwarding schedule
 using (var scope = app.Services.CreateScope())
 {
     var forwardScheduleService = scope.ServiceProvider.GetRequiredService<ForwardScheduleService>();

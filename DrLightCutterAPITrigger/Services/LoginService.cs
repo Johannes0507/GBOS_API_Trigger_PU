@@ -16,19 +16,19 @@ namespace DrLightCutterAPITrigger.Services
         private const string Password = LoginInfo.PD;
 
         /// <summary>
-        /// 初始化 LoginService 類別。
-        /// 設定刷新令牌的計時器。
+        /// Initializes the LoginService class.
+        /// Sets up the refresh token timer.
         /// </summary>
         public LoginService()
         {
-            _refreshTimer = new System.Timers.Timer(4.5 * 60 * 60 * 1000); // 4.5 小時
+            _refreshTimer = new System.Timers.Timer(4.5 * 60 * 60 * 1000); // 4.5 hours
             _refreshTimer.Elapsed += async (sender, e) => await RefreshTokenAsync();
             _refreshTimer.AutoReset = true;
         }
 
         /// <summary>
-        /// 執行用戶登入，發送 POST 請求至登入 URL。
-        /// 儲存存取令牌與刷新令牌，並啟動刷新計時器。
+        /// Performs user login by sending a POST request to the login URL.
+        /// Stores the access token and refresh token, and starts the refresh timer.
         /// </summary>
         public async Task LoginAsync()
         {
@@ -48,8 +48,8 @@ namespace DrLightCutterAPITrigger.Services
                 }
                 else
                 {
-                    Console.WriteLine("獲取 AccessToken 失敗，回應內容為 null");
-                    throw new Exception("獲取 AccessToken 失敗，回應內容為 null");
+                    Console.WriteLine("Failed to obtain AccessToken, response content is null");
+                    throw new Exception("Failed to obtain AccessToken, response content is null");
                 }
 
                 _accessToken = responseData.Token;
@@ -57,18 +57,18 @@ namespace DrLightCutterAPITrigger.Services
 
                 ConfigureHttpClientAuthorization();
                 _refreshTimer.Start();
-                Console.WriteLine($"AccessToken： {_accessToken}");
+                Console.WriteLine($"AccessToken: {_accessToken}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"登入失敗: {ex.Message}");
+                Console.WriteLine($"Login failed: {ex.Message}");
                 throw;
             }
         }
 
         /// <summary>
-        /// 使用刷新令牌來刷新存取令牌。
-        /// 發送 POST 請求至刷新令牌的 URL 並更新存取令牌。
+        /// Uses the refresh token to refresh the access token.
+        /// Sends a POST request to the refresh token URL and updates the access token.
         /// </summary>
         private async Task RefreshTokenAsync()
         {
@@ -88,13 +88,13 @@ namespace DrLightCutterAPITrigger.Services
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"刷新令牌失敗: {ex.Message}");
-                // 處理刷新令牌失敗，例如重新登入或停止服務
+                Console.WriteLine($"Failed to refresh token: {ex.Message}");
+                // Handle token refresh failure, such as re-login or stopping the service
             }
         }
 
         /// <summary>
-        /// 設定 HttpClient 的授權標頭。
+        /// Configures the HttpClient authorization header.
         /// </summary>
         private void ConfigureHttpClientAuthorization()
         {
@@ -102,9 +102,9 @@ namespace DrLightCutterAPITrigger.Services
         }
 
         /// <summary>
-        /// 取得 HttpClient 實例。
+        /// Retrieves the HttpClient instance.
         /// </summary>
-        /// <returns>HttpClient 實例</returns>
+        /// <returns>HttpClient instance</returns>
         public HttpClient GetHttpClient()
         {
             return _httpClient;
